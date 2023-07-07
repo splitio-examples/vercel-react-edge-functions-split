@@ -4,15 +4,22 @@
     "start": "node util/start.mjs"
   },
   "devDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@types/react": "^18.0.14",
-    "@types/react-dom": "^18.0.5",
+    "@types/node": "^20.4.0",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
     "bytes": "^3.1.2",
-    "edge-runtime": "1.1.0-beta.7",
-    "esbuild": "^0.14.47",
+    "edge-runtime": "^2.4.4",
+    "esbuild": "^0.18.11",
     "ms": "^2.1.3",
     "picocolors": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sirv": "^2.0.2"
+  },
+  "dependencies": {
+    "@splitsoftware/splitio-browserjs": "^0.9.6",
+    "@splitsoftware/vercel-integration-utils": "^1.0.0",
+    "@vercel/edge-config": "^0.2.1",
+    "next": "^13.4.8"
   }
 }

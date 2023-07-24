@@ -6,8 +6,7 @@ import { getSplitFlagEdge } from "../../../../src/func/split"
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 // Request example: https://<HOST>/api/edge/split/flag/{flagname}
 
-
-// Run this API route as an Edge function rather than a Serverless one, because the SDK uses Fetch API to flush data, which is available in Edge runtime but not in Serverless.
+// Run this API route as an Edge Function
 export const config = { runtime: "edge" };
 
 
